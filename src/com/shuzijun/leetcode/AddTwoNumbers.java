@@ -13,7 +13,7 @@ package com.shuzijun.leetcode;
  * 输出：7 -> 0 -> 8
  * 原因：342 + 465 = 807
  */
-class AddTwoNumbersSolution {
+class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carrying = 0;
         ListNode returnListNode = null;
@@ -46,11 +46,3 @@ class AddTwoNumbersSolution {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
